@@ -1,0 +1,16 @@
+
+torch
+torchvision
+timm==0.6.12
+opencv-python
+numpy
+pandas
+scipy
+scikit-image
+albumentations
+matplotlib
+thop
+ptflops
+medpy
+SimpleITK
+segmentation-mask-overlay
