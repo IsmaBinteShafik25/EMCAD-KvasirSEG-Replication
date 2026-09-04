@@ -1,0 +1,39 @@
+
+EMCAD Kvasir-SEG Replication Training Log
+
+Model:
+Encoder: PVTv2-B2
+Decoder: EMCAD
+
+Training Summary:
+
+Epoch 1:
+Loss: 3.3473
+Test Dice: 0.7508
+Validation Dice: 0.7297
+
+Epoch 2:
+Loss: 3.0397
+Test Dice: 0.8262
+Validation Dice: 0.8208
+
+Epoch 3:
+Loss: 2.7252
+Test Dice: 0.8248
+Validation Dice: 0.8399
+
+Epoch 4:
+Loss: 2.2861
+Test Dice: 0.8809
+Validation Dice: 0.8763
+
+
+FINAL RESULTS:
+
+Best Validation Dice: 0.9112
+
+Test Dice at Best Validation:
+0.8866
+
+Total Training Time:
+890.61 seconds
