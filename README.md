@@ -1,7 +1,7 @@
 
 # EMCAD Replication on Kvasir-SEG
 
-This repository contains the experimental verification and replication of EMCAD for polyp segmentation using the Kvasir-SEG dataset.
+This repository contains my experimental replication and verification of EMCAD (Efficient Multi-scale Convolutional Attention Decoder) for medical image segmentation using the Kvasir-SEG dataset.
 
 ## Paper
 
@@ -75,6 +75,15 @@ Best Validation Dice:
 
 0.9112
 
+## Replication Challenges
+
+During reproduction of the official EMCAD implementation, I encountered:
+
+- Dataset directory structure adjustment
+- Dependency installation issues
+- Configuration path modification
+
+After resolving these issues, the complete training and testing pipeline was successfully executed.
 
 ## Qualitative Results
 
